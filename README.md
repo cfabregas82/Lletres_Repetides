@@ -1,2 +1,0 @@
-# Lletres_Repetides
- 
