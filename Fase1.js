@@ -1,13 +1,5 @@
-//exercici 8//
-function calculadora(operador, valor1, valor2){
-if (operador == "suma"){
-    return "El resultado de la suma entre " +valor1+ " y " +valor2+ " da como resultado " +(parseInt(valor1) + parseInt(valor2));
-} 
-else if (operador == "resta"){
-    return "El resultado de la resta entre " +valor1+ " y " +valor2+ " da como resultado " +(parseInt(valor1)-parseInt(valor2));
-}    
-else if (operador == "multipl"){
-    return "El resultado de la multiplicación entre " +valor1+ " y " +valor2+ " da como resultado " +valor1*valor2;
+//Fase1//
+var a = ["C", "R", "I", "S", "T", "I", "A", "N"];
+for (x=0;x<a.length;x++){
+console.log(a[x] + "  "); 
 }
-}
-alert (calculadora("resta",20,5))
